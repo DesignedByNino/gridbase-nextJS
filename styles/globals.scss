@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background: #98cdb5;
+  background: #fff;
 }
 
 a {
@@ -14,4 +14,244 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+// color variables   color variables   color variables   color variables   color variables   color variables
+$grid-black: #0b0b0b;
+:export {
+  gridBlack: $grid-black;
+}
+$grid-brown: #2c1608;
+:export {
+  gridBrown: $grid-brown;
+}
+$grid-gray: #888889;
+:export {
+  gridGray: $grid-gray;
+}
+$nav-line: #979797;
+:export {
+  navLine: $nav-line;
+}
+$dev-green: #b8e1cc;
+:export {
+  devGreen: $dev-green;
+}
+$dev-blue: #0a437a;
+:export {
+  devBlue: $dev-blue;
+}
+$dev-orange: #e8a64e;
+:export {
+  devOrange: $dev-orange;
+}
+$dev-teal: #008996;
+:export {
+  devTeal: $dev-teal;
+}
+
+// media breakpoint variables   media breakpoint variables   media breakpoint variables
+$mob-exslim: 320px;
+:export {
+  mobXSlim: $mob-exslim;
+}
+$mob-slim: 360px;
+:export {
+  mobSlim: $mob-slim;
+}
+$mob-regular: 375px;
+:export {
+  mobRegular: $mob-regular;
+}
+$mob-medium: 390px;
+:export {
+  mob-medium: $mob-medium;
+}
+$mob-plus: 414px;
+:export {
+  mobPlus: $mob-plus;
+}
+$mob-large: 428px;
+:export {
+  mobLarge: $mob-large;
+}
+
+$tab-small: 719px;
+:export {
+  tabSmall: $tab-small;
+}
+$tab-regular: 768px;
+:export {
+  tabRegular: $tab-regular;
+}
+$tab-medium: 834px;
+:export {
+  tabMedium: $tab-medium;
+}
+$tab-large: 1024px;
+:export {
+  tabLarge: $tab-large;
+}
+$tab-xlarge: 1366px;
+:export {
+  tabXLarge: $tab-xlarge;
+}
+
+// MARGIN STYLES  MARGIN STYLES  MARGIN STYLES  MARGIN STYLES  MARGIN STYLES  MARGIN STYLES  MARGIN STYLES
+
+.top-margin-s {
+  margin-top: 3vh;
+}
+
+.top-margin-m {
+  margin-top: 6vh;
+}
+
+.top-margin-l {
+  margin-top: 10vh;
+}
+
+.top-margin-g {
+  margin-top: 13vh;
+}
+
+.bot-margin-s {
+  margin-bottom: 3vh;
+}
+
+.bot-margin-m {
+  margin-bottom: 6vh;
+}
+
+.bot-margin-l {
+  margin-bottom: 10vh;
+}
+
+//  ABSOLUTE STYLES  ABSOLUTE STYLES  ABSOLUTE STYLES  ABSOLUTE STYLES  ABSOLUTE STYLES  ABSOLUTE STYLES
+
+.top-absolute {
+  top: 3vh;
+  position: absolute;
+}
+.top-absolute-m {
+  top: 8vh;
+  position: absolute;
+}
+.top-absolute-l {
+  top: 13vh;
+  position: absolute;
+}
+.top-absolute-g {
+  top: 18.4vh;
+  position: absolute;
+}
+
+.right-absolute {
+  right: 3vw;
+  position: absolute;
+}
+.right-absolute-m {
+  right: 8vh;
+  position: absolute;
+}
+.right-absolute-l {
+  right: 13vh;
+  position: absolute;
+}
+.right-absolute-g {
+  right: 18.4vh;
+  position: absolute;
+}
+
+.bot-absolute-zero {
+  bottom: 0vh;
+  position: absolute;
+}
+.bot-absolute {
+  bottom: 3vh;
+  position: absolute;
+}
+.bot-absolute-m {
+  bottom: 8vh;
+  position: absolute;
+}
+.bot-absolute-l {
+  bottom: 13vh;
+  position: absolute;
+}
+.bot-absolute-g {
+  bottom: 18.4vh;
+  position: absolute;
+}
+.bot-absolute-g1 {
+  bottom: 15.4vh;
+  position: absolute;
+}
+
+.left-absolute {
+  left: 3vw;
+  position: absolute;
+}
+
+// EMPTY SPACES  EMPTY SPACES  EMPTY SPACES  EMPTY SPACES  EMPTY SPACES  EMPTY SPACES  EMPTY SPACES
+
+.empty-space-vertical-s {
+  // background-color: $dev-teal;
+  min-height: 8vh;
+  max-height: 8vh;
+  min-width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.empty-space-vertical-m {
+  min-height: 18vh;
+  max-height: 18vh;
+  min-width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.empty-space-vertical-l {
+  min-height: 24vh;
+  max-height: 24vh;
+  min-width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+// OPACITY STYLES  OPACITY STYLES  OPACITY STYLES  OPACITY STYLES  OPACITY STYLES  OPACITY STYLES
+
+.opacity-zero {
+  opacity: 0;
+}
+
+.opacity-half {
+  opacity: 50%;
+}
+
+.opacity-complete {
+  opacity: 100%;
+}
+
+// Z-INDEX  Z-INDEX  Z-INDEX  Z-INDEX  Z-INDEX  Z-INDEX  Z-INDEX  Z-INDEX  Z-INDEX  Z-INDEX  Z-INDEX  Z-INDEX
+
+.top-layer {
+  z-index: 100;
+}
+
+.surface-layer {
+  z-index: 20;
+}
+
+.below-layer {
+  z-index: 10;
+}
+
+.ground-layer {
+  z-index: 3;
+}
+
+.zero-layer {
+  z-index: 0;
 }
