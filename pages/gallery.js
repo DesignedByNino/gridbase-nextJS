@@ -13,7 +13,7 @@ export default function WorkGallery() {
 
       {/* Meta Head Component ⬇︎ */}
       <Head>
-        <title>gridbase® studio | Gallery</title>
+        <title>gridbase® studio | Work Gallery</title>
         <meta name="description" content="We&apos;re helping you define your brand&apos;s identity, and build an immersive experience around it. We provide a seamless flow of ideas in the fields of web design, creative direction, photography and videography." />
         <link rel="icon" href="/favicon.ico" />
       </Head>

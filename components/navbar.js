@@ -36,7 +36,7 @@ export default function Navbar() {
           </div>
           <div className={styles.galleryLink}>
             <Link href="/gallery">
-              <a className="linkText">gallery</a>
+              <a className="linkText">work</a>
             </Link>
           </div>
           <div className={styles.contactLink}>

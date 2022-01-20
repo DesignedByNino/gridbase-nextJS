@@ -35,8 +35,10 @@ export default function Home() {
         <h1 className={styles.titleMedium}>can sell anything</h1>
       </div>
       <div className={styles.ButtonContainer}>
-        <a href="#workGallery" className={styles.heroButton}>see our work</a>
-        <Image src={buttonArrow} alt='small button arrow' className={styles.buttonArrow}  />
+        <Link href="/gallery">
+          <a className={styles.heroButton}>see our work</a>
+        </Link>
+        <img src='images/left-tri-arrow.png' alt='small button arrow' className={styles.buttonArrow}  />
       </div>
       
     {/* Main Hero Grid ⬆︎ */}

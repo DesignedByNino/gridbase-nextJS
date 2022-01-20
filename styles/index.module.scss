@@ -3,12 +3,15 @@
 // For a detailed graphical representation of this layout, check the Sketch file
 
 .mainHeroGrid {
+  // background: #ff7f50;
+
   display: grid;
   grid-template-columns: 46vw 37vw;
-  grid-template-rows: 25vh 25vh 25vh;
+  grid-template-rows: 30vh 30vh 20vh;
   column-gap: 3vw;
   row-gap: 3vh;
-  padding: 3vh 4vw 0 2vw;
+
+  padding: 3vh 4vw 0 3.3vw;
   width: 100vw;
   min-width: 100vw;
   max-width: 100vw;
@@ -18,15 +21,24 @@
 }
 
 .headingWrap {
-  background: variables.$grid-gray;
+  // background: variables.$grid-gray;
+
   grid-column: 1 / 2;
   grid-row: 1 / 2;
   place-self: stretch;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
   // height: 35vh;
   // min-height: 35vh;
   // max-height: 35vh;
 
   .titleLarge {
+    // background: variables.$dev-green;
+
     font-size: 8vw;
     font-weight: 200;
     padding: 0;
@@ -35,28 +47,31 @@
 }
 
 .SphereContainer {
-  background: variables.$dev-blue;
+  // background: variables.$dev-blue;
+
   grid-column: 2 / 3;
   grid-row: 1 / 3;
   place-self: stretch;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 42vw;
-  min-width: 42vw;
-  max-width: 42vw;
-  height: 100%;
-  min-height: 100%;
-  max-height: 100%;
+
+  // width: 42vw;
+  // min-width: 42vw;
+  // max-width: 42vw;
+  // height: 100%;
+  // min-height: 100%;
+  // max-height: 100%;
   position: relative;
-  top: 4vh;
+  // top: 4vh;
 
   .brandTitle {
     font-size: 7.2vw;
     font-weight: 200;
     position: absolute;
-    top: 20.1vh;
+    top: 18.6vh;
   }
 
   .brandSphere {
@@ -67,39 +82,36 @@
 }
 
 .ParagraphContainer {
-  background: variables.$dev-teal;
+  // background: variables.$dev-teal;
+
   grid-column: 1 / 2;
   grid-row: 2 / 3;
   place-self: stretch;
+
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
-  width: 45vw;
-  min-width: 45vw;
-  max-width: 45vw;
+
+  width: 48vw;
+  min-width: 48vw;
+  max-width: 48vw;
 }
 
-// .universalPAG {
-//   // background: variables.$dev-orange;
-//   font-size: 1.3vw;
-//   font-weight: 200;
-//   line-height: 170%;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   justify-content: flex-start;
-//   width: 20vw;
-// }
-
 .headingWrapBase {
-  background: variables.$grid-gray;
+  // background: variables.$grid-gray;
+
   grid-column: 1 / 2;
   grid-row: 3 / 4;
   place-self: stretch;
 
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
   .titleMedium {
-    font-size: 6.62vw;
+    font-size: 6.1vw;
     font-weight: 200;
     padding: 0;
     margin: 0;
@@ -107,10 +119,55 @@
 }
 
 .ButtonContainer {
-  background: variables.$dev-orange;
   grid-column: 2 / 3;
   grid-row: 3 / 4;
-  place-self: stretch;
+  place-self: center;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 32vw;
+  min-width: 32vw;
+  max-width: 32vw;
+  height: 9vh;
+  min-height: 9vh;
+  max-height: 9vh;
+  padding: 0 1.75vw;
+  position: relative;
+
+  .heroButton {
+    background-image: url(/images/design/gradient-button-background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 20vw;
+    min-width: 20vw;
+    max-width: 20vw;
+    height: 8.6vh;
+    min-height: 8.6vh;
+    max-height: 8.6vh;
+    padding: 0 1.75vw;
+    border-radius: 12vw;
+    border: 1px solid variables.$nav-line;
+
+    font-size: 1.9vw;
+    font-weight: 200;
+  }
+
+  .buttonArrow {
+    position: absolute;
+    right: 1.75vw;
+    width: 1.5vw;
+    user-select: none;
+  }
 }
 
 // Backup FlexBox Styles ⬇︎
@@ -159,4 +216,16 @@
 //   justify-content: space-between;
 //   padding-left: 3vw;
 //   padding-right: 3vw;
+// }
+
+// .universalPAG {
+//   // background: variables.$dev-orange;
+//   font-size: 1.3vw;
+//   font-weight: 200;
+//   line-height: 170%;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: flex-start;
+//   width: 20vw;
 // }
