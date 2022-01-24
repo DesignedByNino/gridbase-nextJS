@@ -22,11 +22,13 @@ export default function Navbar() {
         <div className={styles.linkContainer}>
           <div className={styles.langSwitchWrap}>
             <Link href="/">
-              <Image
+              <a className={styles.langSwitchLink}>
+                <Image
                 src={langSwitch}
                 alt="Language switch button"
                 className={styles.langSwitch}
-              />
+              />  
+              </a>
             </Link>
           </div>
           <div className={styles.servicesLink}>
