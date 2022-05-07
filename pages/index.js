@@ -55,7 +55,7 @@ export default function Home() {
           />
         </div>
         <div className={styles.headingWrapBase}>
-          <h1 className={styles.titleMedium}>can sell anything</h1>
+          <h1 className={styles.titleMedium}>can express anything</h1>
         </div>
         <div className={styles.ButtonContainer}>
           <Link href="/gallery">
