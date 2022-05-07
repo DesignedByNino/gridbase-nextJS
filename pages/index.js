@@ -31,12 +31,22 @@ export default function Home() {
             We&apos;re helping you define your brand&apos;s identity, and build
             an immersive experience around it.
           </p>
-          <p className="universalPAG">
+          <p className="universalPAG mobileHide">
             We provide a seamless flow of ideas in the fields of web design,
             creative direction, photography and videography.
           </p>
         </div>
         <div className={styles.SphereContainer}>
+          <div className={styles.mobileBrandText}>
+            <h3 className={styles.mobileSphereTitle}>Well crafted</h3>
+            <h1 className={styles.brandTitle}>brands</h1>
+            <img
+              src="/images/arrow-s-white-down"
+              alt="small white arrow"
+              className={styles.mobileSphereTopArrow}
+            />
+            <h3 className={styles.mobileSphereTitle}>can sell anything</h3>
+          </div>
           <h1 className={styles.brandTitle}>brands</h1>
           <img
             className={styles.brandSphere}
